@@ -9,7 +9,6 @@ function start(response){
 		response.write(stdout);
 		response.end();
 	});
-	return content;
 }
 
 function upload(response){
